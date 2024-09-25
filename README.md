@@ -35,8 +35,7 @@ pip install PyQt5
 입력 폴더는 다음과 같은 구조를 가질 수 있습니다:
 
 ```
-C:\Users\leeis\OneDrive\바탕 화면\code\check
-└── 20240627
+── 20240627
     ├── 1101568693
     │   ├── image1.jpg
     │   └── image2.png
@@ -54,7 +53,7 @@ C:\Users\leeis\OneDrive\바탕 화면\code\check
 사용자가 출력 폴더를 선택하면, 프로그램은 입력 폴더의 구조를 그대로 유지하면서 평가된 이미지를 저장합니다. 예를 들어:
 
 ```
-D:\평가된_이미지
+평가된_이미지
 └── 20240627
 ├── 1101568693
 │   ├── evaluated_image1.jpg
