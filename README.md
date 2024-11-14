@@ -3,6 +3,7 @@
 Image Quality Evaluator는 이미지 품질을 자동으로 평가하는 Python 기반 GUI 애플리케이션입니다. 
 
 # 배달 플랫폼 배송완료 사진 자동화 시스템
+배달 플랫폼의 배송완료 인증사진 품질을 자동으로 검토하기 위해, 밝기/선명도/대비를 기준으로 하는 자동화 시스템을 도입하여 하루 400장의 수동 검토 부담을 줄이는 프로젝트입니다.
 
 ## 프로젝트 배경
 * 배달 플랫폼의 배송완료 인증사진 품질 관리 필요성 대두
@@ -25,6 +26,8 @@ Image Quality Evaluator는 이미지 품질을 자동으로 평가하는 Python 
 * 각 항목별 임계값(threshold) 설정 가능
 * 플랫폼사의 자체 기준 적용 가능
 * 기준 미달 시 '확인 필요' 태그 생성
+
+# 기능
 
 image_quality_evaluator_gui.py 는  gui 버전
 image_quality_evaluator.py 단순 파이썬 실행용.
